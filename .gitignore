@@ -15,3 +15,4 @@ packages/public/badge-*
 playgrounds/*/pnpm-lock.yaml
 types
 juejin-docs
+example
