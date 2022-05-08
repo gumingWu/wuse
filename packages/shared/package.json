@@ -2,9 +2,9 @@
   "name": "@wuse/shared",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
-  "module": "index.mjs",
-  "types": "index.d.ts",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsup ./index.ts --dts --format esm,cjs --clean"
   },
