@@ -8,7 +8,8 @@
     "build:core": "pnpm build --filter @wuse/core",
     "dev:example": "pnpm dev --filter @wuse/example",
     "meta:update": "pnpm meta:update --filter @wuse/metadata",
-    "wuse:update": "esno scripts/update.ts"
+    "wuse:update": "esno scripts/update.ts",
+    "docs:dev": "vitepress dev docs --open"
   },
   "keywords": [],
   "author": "",
@@ -16,6 +17,7 @@
   "dependencies": {
     "tsup": "^5.12.9",
     "typescript": "^4.7.3",
+    "vitepress": "^1.0.0-alpha.2",
     "vue": "^3.2.37",
     "vue-demi": "^0.12.5"
   },
