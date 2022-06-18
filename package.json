@@ -7,7 +7,8 @@
     "build:shared": "pnpm build --filter @wuse/shared",
     "build:core": "pnpm build --filter @wuse/core",
     "dev:example": "pnpm dev --filter @wuse/example",
-    "meta:update": "pnpm meta:update --filter @wuse/metadata"
+    "meta:update": "pnpm meta:update --filter @wuse/metadata",
+    "wuse:update": "esno scripts/update.ts"
   },
   "keywords": [],
   "author": "",
