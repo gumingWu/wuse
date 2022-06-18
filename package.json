@@ -21,9 +21,11 @@
   },
   "devDependencies": {
     "@types/fs-extra": "^9.0.13",
+    "@types/js-yaml": "^4.0.5",
     "esno": "^0.16.3",
     "fast-glob": "^3.2.11",
     "fs-extra": "^10.1.0",
-    "gray-matter": "^4.0.3"
+    "gray-matter": "^4.0.3",
+    "js-yaml": "^4.1.0"
   }
 }

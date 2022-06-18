@@ -1,9 +1,10 @@
 import { packages, functions } from "../packages/metadata/metadata";
-import {updateImport} from "./utils";
+import {updateImport, updateFunctionREADME} from "./utils";
 
 async function run() {
   await Promise.all([
-    updateImport(packages, functions)
+    updateImport(packages, functions),
+    updateFunctionREADME(functions),
   ])
 }
 
