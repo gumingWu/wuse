@@ -9,7 +9,7 @@
     "dev:example": "pnpm dev --filter @wuse/example",
     "meta:update": "pnpm meta:update --filter @wuse/metadata",
     "wuse:update": "esno scripts/update.ts",
-    "docs:dev": "vitepress dev docs --open"
+    "docs:dev": "vitepress dev packages --open"
   },
   "keywords": [],
   "author": "",
